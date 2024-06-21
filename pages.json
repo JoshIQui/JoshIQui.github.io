@@ -1,0 +1,98 @@
+{
+    "Game Development": {
+        "Steel Heel Jam": {
+            "Title": "<h2>Steel Heel Jam: <a href=\"https://nickybakes.itch.io/steel-heel-jam\" target=\"_blank\">Game Page</a></h2>",
+            "Image": "<iframe class=\"trailer\" width=\"1500\" height=\"700\" src=\"https://www.youtube.com/embed/oy4JxydzyLc\" title=\"Steel Heel Jam Trailer\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>",
+            "Description": "<p>Steel Heel Jam is a 2-8-player 3D platform fighter where players must compete to stay within a closing ring. The project was developed using the Unity game engine. The game has multiple weapons that can be picked up, used, and thrown at opponents. There are many ways to fight in this game. You can attack, jump attack, roll, block throw objects, and even perform a massive suplex slam. Once a player is outside of the ring with no stamina, they are eliminated. The last player standing is the winner. The game is currently available on <a href=\"https://itch.io/\" target=\"_blank\">itch.io</a></p>"
+        },
+        "Nebula Hero": {
+            "Title": "<h2>Nebula Hero: <a href=\"media/projects/nebulahero.apk\" download>Download (Android)</a></h2>",
+            "Image": "<img src=\"media/Images/nebula_hero_image.png\" alt=\"Nebula Hero\">",
+            "Description": "<p>Nebula Hero is a 3D on-rails shooter where the player moves around the screen to avoid incoming enemies, bullets, and terrain. There are rooms that the player must survive through to continue the game. Every few rooms, the player will have the option to select a permanent positive and negative effect. The game was made as a prototype in Unity and designed for Android. As such, the game contains efficient code for high framerates on Android Additionally, I am looking to port the game to PC and continue development.</p>"
+        },
+        "KleptoStrikers": {
+            "Title": "<h2>Kleptostrikers: <a href=\"https://drive.google.com/file/d/1kH20UljjEny4e1L2NAHHWjehi3UFIBu2/view?usp=sharing\" target=\"_blank\">Download</a></h2>",
+            "Image": "<img src=\"media/Images/kleptostrikers_image.png\" alt=\"Kleptostrikers\">",
+            "Description": "<p>Kleptostrikers is a 4-player arena fighter where players explore a complex map for items that increase their stats. Players can find items that may increase their health, attack, defense, or speed. They can find them on the ground, pick them up from defeated enemy AIs, or damage other players to steal some of theirs. The game has a three-minute time limit. Once the time limit has been reached, players will no longer spawn once KOed. This game was made in Unreal Engine 5 and was used as a formal introduction to Unreal Engine by making a game. Using the lessons learned by making this game, I have gained a strong confidence in my abilities to develop using Unreal Engine.</p>"
+        },
+        "3DRenderer": {
+            "Title": "<h2>3DRenderer: <a href=\"https://github.com/JoshIQui/3DRenderer\" download></a></h2>",
+            "Image": "<img src=\"media/Images/3drenderer.png\" alt=\"3D Renderer\">",
+            "Description": "<p>3DRenderer is a simple game engine created using a standard DirectX 11 starter project. The project features a game where the player collects cubes by jumping into them. The graphics, material system, physics, collision, and all other aspects of the game engine were programmed from the ground up with a few external helper classes.</p>"
+        },
+        "Inverse Dungeon": {
+            "Title": "<h2>Inverse Dungeon: <a href=\"media/projects/Inverse Dungeon.zip\" download>Download</a></h2>",
+            "Image": "<img src=\"media/Images/inverse_dungeon_image.PNG\" alt=\"Inverse Dungeon\">",
+            "Description": "<p>Inverse Dungeon is a game made by four first year students using the MonoGame framework and was written in C#. For this project, I was responsible for the project's class structure, the collision detection framework, the UI, and the level editor of the game. The level editor was built using windows forms and I also needed to make the different states of the game, such as a pause screen. The result was a game where you play as a goblin who teams up with other goblins to defeat the hero who is chasing you throughout the dungeon. The hero is capable of platforming and dodging hazards, so you need to be smart to defeat him.</p>"
+        },
+        "GolfBerg": {
+            "Title": "<h2>GolfBerg: <a href=\"media/projects/GolfBerg.zip\" download>Download</a></h2>",
+            "Image": "<img src=\"media/Images/golfberg_image.PNG\" alt=\"GolfBerg\">",
+            "Description": "<p>GolfBerg is a game made by three students using the Unity game engine. It is a 2D puzzle game where the player must use objects to get a ball to the goal with physics-based manipulations. The player can drag and drop items from the inventory onto the screen to solve the puzzles. The game features ten levels with unique objects and puzzles to solve. I developed the game's UI systems and their interactions with the game's engine. Additionally, I directed the game's level design and implemented assets for the game. The game's physics-based interactions were also coded by me.</p>"
+        },
+        "Sweet Recovery": {
+            "Title": "<h2>Sweet Recovery: <a href=\"media/projects/Sweet Recovery.zip\" download>Download</a></h2>",
+            "Image": "<img src=\"media/Images/sweet_recovery_image.PNG\" alt=\"Sweet Recovery\">",
+            "Description": "<p>Sweet Recovery is a game made by four students using the Unity game engine. It is an infinite runner where the player collects candy in a foggy, zombie-filled town. The player can use the candy the collected at the portal shop to gain temporary powerups that will help them in their quest. They must recover as much candy as possible from the ghost that stole it all. I designed the powerups in the game and programmed them. Additionally, I programmed the game's UI and tile movement system. Finally, I worked with our game's 3D artist to properly implement the game's 3D assets.</p>"
+        },
+        "The Tunnels": {
+            "Title": "<h2>The Tunnels: <a href=\"media/projects/The Tunnels.zip\" download>Download</a></h2>",
+            "Image": "<img src=\"media/Images/the_tunnels_image.PNG\" alt=\"The Tunnels\">",
+            "Description": "<p>The Tunnels is a game made by four students using the Unity game engine. It is a horror game where the player navigates a series of tunnels. To escape, the player must look for keys within the rooms to open doors. Occasionally, the player will encounter an entity that will chase them. Running away is the only possible option. Your goal is to survive long enough to discover the mystery of the tunnels. I designed and coded the game's room and key system. Additionally, I programmed the game's AI to behave within a Navmesh created by another member. Coordinating the asset implementations from our 3D artist was one of the more difficult tasks. I took charge of that task and completed it successfully. Along with the object implementations, I coded various design choices, such as the oscillating glow effect on keys.</p>"
+        },
+        "Hellscape": {
+            "Title": "<h2>Hellscape: <a href=\"media/projects/Hellscape.zip\" download>Download</a></h2>",
+            "Image": "<img src=\"media/Images/hellscape_image.PNG\" alt=\"Hellscape\">",
+            "Description": "<p>Hellscape is a short, hardcore, 2D platformer created by five students. I programmed the game's 2D character controller, which can be found <a href=\"https://github.com/Starchy29/Hellscape/blob/main/Hellscape/Assets/Scripts/PlayerMovementTest.cs\">here</a>. Additionally, I programmed and balanced the player's abilities. The player can wall jump, double jump, dash, and bounce on spikes. Finally, I designed the game's fourth level. This project taught me about coordinating game objects and elements to be used universally among multiple designers. The group needed to determine things such as average platform heights and other level design aspects.</p>"
+        },
+        "King of the Hill": {
+            "Title": "<h2><a href=\"https://docs.google.com/document/d/1_RFUpUeumiEGEFRBZ_m7p6n1cI5z7VcwbPlJO70kJXQ/edit?usp=sharing\">King of the Hill</a></h2>",
+            "Image": "<img src=\"media/Images/king_of_the_hill_image.PNG\" alt=\"King of the Hill\">",
+            "Description": "<p>King of the Hill is a board game concept designed by five students. The game involves multiple players competing against one player who plays as the yeti. The rest of the players will play as the climbers. The climbers must make it to the top of the mountain without being knocked off of the mountain. Meanwhile, the yeti must attempt to knock the climbers off the mountain. Each turn, each player may use cards to their advantage to benefit themselves. I designed the basic game loop as well as a majority of the game's cards. I was also responsible for the game's balancing. The group hosted multiple playtests and iterated on the game's design based on feedback.</p>"
+        },
+        "Live Laugh Longhouse": {
+            "Title": "<h2><a href=\"https://docs.google.com/document/d/1VdXhGDV5ZACFo5oEtbQQGTqTp_asgYw_HRLbzCsoTK0/edit?usp=sharing\">Live Laugh Longhouse</a></h2>",
+            "Image": "<img src=\"media/Images/live_laugh_longhouse_image.PNG\" alt=\"Live Laugh Longhouse\">",
+            "Description": "<p>Live Laugh Longhouse is a board game concept designed by four students. The game involves up to four players competing against one another for land space to earn points. Players will place houses and multiplier tiles to earn points. Since different multiplier tiles provide different bonuses to houses, players must strategize to maximize their benefits. The main strategy of the game is that enemy players can take advantage of other players' multiplier tiles. Therefore, controlling as much land in a secure way is the optimal way to play the game. I designed the core scoring mechanics of the game. Additionally, I balanced the game using iterated feedback from playtests as well as mathematical analysis of the existing scoring system.</p>"
+        }
+    },
+    "Web Application Development": {
+        "Roost": {
+            "Title": "<h2><a href=\"https://roost-app.herokuapp.com/\">Roost</a></h2>",
+            "Image": "<img src=\"media/Images/roost_image.png\" alt=\"Roost\">",
+            "Description": "<p>Roost is a video hosting website where users can upload short videos to store and share with others via link. Users can create accounts to upload videos and can share links to those videos or links to their own accounts. A sample account can be seen <a href=\"https://roost-app.herokuapp.com/account?_id=645858f006a7063564101319\">here</a>. The application is built using <a href=\"https://www.heroku.com/\">Heroku</a> to host a Node JS server. The web application utilizes <a href=\"https://react.dev/\">React</a> to display its components and <a href=\"https://redis.io/\">Redis</a> for account-related purposes. Additionally, the application uses <a href=\"https://www.mongodb.com/\">MongoDB</a> as a database for the server.</p>"
+        },
+        "Hitboxle": {
+            "Title": "<h2><a href=\"https://hitboxle.herokuapp.com/\">Hitboxle</a></h2>",
+            "Image": "<img src=\"media/Images/hitboxle_image.png\" alt=\"Hitboxle\">",
+            "Description": "<p>Hitboxle is a Wordle-inspired web game where the player will guess the name of the character that owns the specified fighting game move. The player is given a description of the move along with some useful frame data information. Once the user guesses the correct character name, the answer is revealed. At any point, a user can change the puzzle that is presented for sampling purposes. The application is built as a <a href=\"https://www.heroku.com/\">Heroku</a>-hosted Node JS server. The application manages requests for puzzle information and to update user statistics. Move information is borrowed from <a href=\"https://www.dustloop.com/w/Main_Page\">Dustloop</a> and stored in a JSON file on the server. The server can then use this file to decide on what puzzle to use for the specified time-slot.</p>"
+        },
+        "Zelda Finder": {
+            "Title": "<h2><a href=\"../330/project-1/home.html\">Zelda Finder</a></h2>",
+            "Image": "<img src=\"media/Images/zelda_finder_image.PNG\" alt=\"Zelda Finder\">",
+            "Description": "<p>Zelda Finder is a search engine that allows a user to search for Zelda-related games, characters, monsters, bosses, dungeons, places, and items. The app utilizes html, css, javascript, and JSON to manage the searches and provide results. The app also utilizes local storage manipulation and <a href=\"https://firebase.google.com/\">Firebase</a> to maintain user data. For example, the app has a favorite option which allows the user to mark results that they like. The app will remember that the user favorited them and will also increase that result's favorite count in the community page. The app utilizes the <a href=\"https://zelda.fanapis.com/\">Zelda API</a> to query and return results. The app also uses <a href=\"https://bulma.io/\"> Bulma</a> for styling and is streamlined using Javascript Web Components.</p>"
+        },
+        "Life Visualizer": {
+            "Title": "<h2><a href=\"../330/project-2/app.html\">Life Visualizer</a></h2>",
+            "Image": "<img src=\"media/Images/life_visualizer_image.PNG\" alt=\"Life Visualizer\">",
+            "Description": "<p>The Live Visualizer is an audio visualizer that utilizes both the Canvas API and a personally-made JavaScript version of Conway's Game of Life to generate visual effects from music. The project is written using HTML, CSS, and JavaScript. Additionally the project utilizes <a href=\"https://bulma.io/\">Bulma</a> to create a responsive UI. The user can select from different visual filters and songs. The audio is adjustable via a slider and the user is capable of selecting from three songs. The user is also capable of creating their own color for the visualizer through three different color sliders. There are controls for audio in the form of checkboxes that the user can fill to affect the audio.</p>"
+        },
+        "Amiibo Finder": {
+            "Title": "<h2><a href=\"../235/project2\">Amiibo Finder</a></h2>",
+            "Image": "<img src=\"media/Images/amiibo_finder_image.PNG\" alt=\"Amiibo Finder\">",
+            "Description": "<p>Amiibo Finder is a project that uses html, css and javascript to create a search engine that returns a list of amiibos that meet the criteria. To do this, the program utilizes the <a href=\"https://www.amiiboapi.com/\">AmiiboAPI</a> to generate results. The user could search using the amiibo's name, game series, amiibo series and could even filter by date. The user could also select what store they wanted a link to be from so that they could buy their searched ammibo at their desired store. This project was done entirely by myself, with criticism from classmates to assist in the creation process. The main learning point of this project was to understand how to get external information and parse it. As a result, the main challenge of this project was finding a way to parse the information clearly and efficiently.</p>"
+        }
+    },
+    "Work Experience": {
+        "Changeling VR": {
+            "Title": "<h2><a href=\"https://www.changelingvr.com/\">Changeling VR</a></h2>",
+            "Image": "",
+            "Description": "<p></p>"
+        },
+        "AVEVA": {
+            "Title": "",
+            "Image": "",
+            "Description": "<p></p>"
+        }
+    }
+}

@@ -5,192 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
     <link rel="stylesheet" href="stylesheet.css">
+    <script type="text/javascript" src="src.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@1,700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Commissioner&display=swap" rel="stylesheet">
 </head>
 <body>
-    <nav>
-        <a href="#about">About</a>
-        <a href="#projects">Projects</a>
-        <a href="media/Joshua Quinones Resume.pdf" target="_blank">Resume</a>
-    </nav>
-
     <header>
-        <div id="self-image">
-            <img src="media/Images/me.jpg" alt="Me">
-        </div>
-        
         <div id="title">
             <h1>Joshua Quinones: Game Developer</h1>
         </div>
     </header>
 
+    <nav id="navi">
+        <a href="media/Joshua Quinones Resume.pdf" target="_blank"><button>Resume</button></a>
+        <div>
+            <h3><button id="aboutMeButton">About Me</button></h3>
+        </div>
+    </nav>
+
     <div id="wrapper">
-        <div id="about">
-            <h2>About Me</h2>
-
-            <div class="specifics">
-                <p>
-                    I am a programmer who loves everything about the video game creation process. I love the music, mechanics, art, 
-                    and story of games. To me, being passionate is the most important part about developing games. 
-                    When working with others, I have learned that developing a strong relationship among group members allows for 
-                    this passion to grow. Therefore, I believe that a game designer must be open-minded and passionate about everything they do.
-                </p>
-                <p>
-                    I have experience designing and developing multiple different genres of games. During my time at RIT, my coding experience 
-                    and my experience working with game engines and frameworks have been refined. I am someone who is organized, goal-oriented, 
-                    and self-critical. Additionally, I am an effective problem solver who applies his math skills to facets such as game balance.
-                </p>
-                <p>
-                    My favorite types of games are competetive games. I love fighting games, MOBAs, and RPGs. Having the ability to express myself in games is one of my driving forces for playing games.
-                </p>
-            </div>
-        </div>
-
-        <hr>
-
-        <div id="projects">
-            <h2>My Projects</h2>
-
-            <div class="specifics">
-
-                <h3>Steel Heel Jam: <a href="https://nickybakes.itch.io/steel-heel-jam" target="_blank">Game Page</a></h3>
-
-                <iframe class="trailer" width="1500" height="700" src="https://www.youtube.com/embed/oy4JxydzyLc" title="Steel Heel Jam Trailer" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
-                <p>
-                    Steel Heel Jam is a 2-8-player 3D platform fighter where players must compete to stay within a closing ring. The project was developed using the Unity game engine. The game has multiple weapons that can be picked up, used, and thrown at opponents. There are many ways to fight in this game. You can attack, jump attack, roll, block throw objects, and even perform a massive suplex slam. Once a player is outside of the ring with no stamina, they are eliminated. The last player standing is the winner. The game is currently available on <a href="https://itch.io/" target="_blank">itch.io</a>
-                </p>
-
-                <hr>
-
-                <h3>Nebula Hero: <a href="media/projects/nebulahero.apk" download>Download (Android)</a></h3>
-
-                <img src="media/Images/nebula_hero_image.png" alt="Nebula Hero Screenshot">
-
-                <p>
-                    Nebula Hero is a 3D on-rails shooter where the player moves around the screen to avoid incoming enemies, bullets, and terrain. There are rooms that the player must survive through to continue the game. Every few rooms, the player will have the option to select a permanent positive and negative effect. The game was made as a prototype in Unity and designed for Android. As such, the game contains efficient code for high framerates on Android Additionally, I am looking to port the game to PC and continue development.
-                </p>
-
-                <hr>
-
-                <h3>Kleptostrikers: <a href="https://drive.google.com/file/d/1kH20UljjEny4e1L2NAHHWjehi3UFIBu2/view?usp=sharing" target="_blank">Download</a></h3>
-
-                <img src="media/Images/kleptostrikers_image.png" alt="Kleptostrikers Screenshot">
-
-                <p>
-                    Kleptostrikers is a 4-player arena fighter where players explore a complex map for items that increase their stats. Players can find items that may increase their health, attack, defense, or speed. They can find them on the ground, pick them up from defeated enemy AIs, or damage other players to steal some of theirs. The game has a three-minute time limit. Once the time limit has been reached, players will no longer spawn once KOed. This game was made in Unreal Engine 5 and was used as a formal introduction to Unreal Engine by making a game. Using the lessons learned by making this game, I have gained a strong confidence in my abilities to develop using Unreal Engine.
-                </p>
-
-                <hr>
-
-                <a href="https://github.com/JoshIQui/3DRenderer" download></a><h3>3DRenderer:</h3></a>
-
-                <img src="media/Images/3drenderer.png" alt="3D Renderer Screenshot">
-
-                <p>
-                    3DRenderer is a simple game engine created using a standard DirectX 11 starter project. The project features a game where the player collects cubes by jumping into them. The graphics, material system, physics, collision, and all other aspects of the game engine were programmed from the ground up with a few external helper classes.
-                </p>
-
-                <hr>
-
-                <h3>Inverse Dungeon: <a href="media/projects/Inverse Dungeon.zip" download>Download</a></h3>
-
-                <img src="media/Images/inverse_dungeon_image.PNG" alt="Inverse Dungeon Screnshot">
-
-                <p>
-                    Inverse Dungeon is a game made by four first year students using the MonoGame framework and was written in C#. For this project, I was responsible for the
-                    project's class structure, the collision detection framework, the UI, and the level editor of the game. The level editor was built using windows
-                    forms and I also needed to make the different states of the game, such as a pause screen. The result was a game where you play as a
-                    goblin who teams up with other goblins to defeat the hero who is chasing you throughout the dungeon. The hero is capable of platforming
-                    and dodging hazards, so you need to be smart to defeat him.
-                </p>
-
-                <hr>
-
-                <h3>GolfBerg: <a href="media/projects/GolfBerg.zip" download>Download</a></h3>
-
-                <img src="media/Images/golfberg_image.PNG" alt="GolfBerg Screenshot">
-
-                <p>
-                    GolfBerg is a game made by three students using the Unity game engine. It is a 2D puzzle game where the player must use objects to get a ball to the
-                    goal with physics-based manipulations. The player can drag and drop items from the inventory onto the screen to solve the puzzles. The game features 
-                    ten levels with unique objects and puzzles to solve. I developed the game's UI systems and their interactions with the game's engine. Additionally, 
-                    I directed the game's level design and implemented assets for the game. The game's physics-based interactions were also coded by me.
-                </p>
-
-                <hr>
-
-                <h3>Sweet Recovery: <a href="media/projects/Sweet Recovery.zip" download>Download</a></h3>
-
-                <img src="media/Images/sweet_recovery_image.PNG" alt="Sweet Recovery Screenshot">
-
-                <p>
-                    Sweet Recovery is a game made by four students using the Unity game engine. It is an infinite runner where the player collects candy in a foggy, zombie-filled 
-                    town. The player can use the candy the collected at the portal shop to gain temporary powerups that will help them in their quest. They must recover
-                    as much candy as possible from the ghost that stole it all. I designed the powerups in the game and programmed them. Additionally, I programmed the game's
-                    UI and tile movement system. Finally, I worked with our game's 3D artist to properly implement the game's 3D assets.
-                </p>
-
-                <hr>
-
-                <h3>The Tunnels: <a href="media/projects/The Tunnels.zip" download>Download</a></h3>
-
-                <img src="media/Images/the_tunnels_image.PNG" alt="The Tunnels Screnshot">
-
-                <p>
-                    The Tunnels is a game made by four students using the Unity game engine. It is a horror game where the player navigates a series of tunnels. To escape,
-                    the player must look for keys within the rooms to open doors. Occasionally, the player will encounter an entity that will chase them. Running away is the
-                    only possible option. Your goal is to survive long enough to discover the mystery of the tunnels. I designed and coded the game's room and key system.
-                    Additionally, I programmed the game's AI to behave within a Navmesh created by another member. Coordinating the asset implementations from our 3D
-                    artist was one of the more difficult tasks. I took charge of that task and completed it successfully. Along with the object implementations, I coded
-                    various design choices, such as the oscillating glow effect on keys.
-                </p>
-
-                <hr>
-
-                <h3>Hellscape: <a href="media/projects/Hellscape.zip" download>Download</a></h3>
-
-                <img src="media/Images/hellscape_image.PNG" alt="Hellscape Screnshot">
-
-                <p>
-                    Hellscape is a short, hardcore, 2D platformer created by five students. I programmed the game's 2D character controller, which can be found
-                    <a href="https://github.com/Starchy29/Hellscape/blob/main/Hellscape/Assets/Scripts/PlayerMovementTest.cs">here</a>. Additionally, I programmed 
-                    and balanced the player's abilities. The player can wall jump, double jump, dash, and bounce on spikes. Finally, I designed the game's fourth
-                    level. This project taught me about coordinating game objects and elements to be used universally among multiple designers. The group needed
-                    to determine things such as average platform heights and other level design aspects.
-                </p>
-
-                <hr>
-
-                <h3><a href="https://docs.google.com/document/d/1_RFUpUeumiEGEFRBZ_m7p6n1cI5z7VcwbPlJO70kJXQ/edit?usp=sharing">King of the Hill</a></h3>
-
-                <img src="media/Images/king_of_the_hill_image.PNG" alt="King of the Hill Screenshot">
-
-                <p>
-                    King of the Hill is a board game concept designed by five students. The game involves multiple players competing against one player who plays as the yeti.
-                    The rest of the players will play as the climbers. The climbers must make it to the top of the mountain without being knocked off of the mountain. Meanwhile,
-                    the yeti must attempt to knock the climbers off the mountain. Each turn, each player may use cards to their advantage to benefit themselves. I designed the
-                    basic game loop as well as a majority of the game's cards. I was also responsible for the game's balancing. The group hosted multiple playtests and iterated
-                    on the game's design based on feedback.
-                </p>
-
-                <hr>
-
-                <h3><a href="https://docs.google.com/document/d/1VdXhGDV5ZACFo5oEtbQQGTqTp_asgYw_HRLbzCsoTK0/edit?usp=sharing">Live Laugh Longhouse</a></h3>
-
-                <img src="media/Images/live_laugh_longhouse_image.PNG" alt="Live Laugh Longhouse Screenshot">
-
-                <p>
-                    Live Laugh Longhouse is a board game concept designed by four students. The game involves up to four players competing against one another for land space to earn points.
-                    Players will place houses and multiplier tiles to earn points. Since different multiplier tiles provide different bonuses to houses, players must strategize to maximize.
-                    their benefits. The main strategy of the game is that enemy players can take advantage of other players' multiplier tiles. Therefore, controlling as much land in a secure
-                    way is the optimal way to play the game. I designed the core scoring mechanics of the game. Additionally, I balanced the game using iterated feedback from playtests as well
-                    as mathematical analysis of the existing scoring system.
-                </p>
-            </div>
-        </div>
+        <div id="display" class="specifics"></div>
     </div>
 </body>
 </html>
