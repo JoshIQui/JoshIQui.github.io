@@ -2,6 +2,7 @@ body{
     margin: 0;
     padding: 0;
     background-color: #FDF0D5;
+    overflow: hidden;
 }
 
 p{
@@ -21,11 +22,12 @@ a:visited{
 h1{
     font-family: 'Staatliches', cursive;
     font-size: 260%;
+    letter-spacing: .1rem;
 }
 
 h2, h3{
     font-family: 'Commissioner';
-    font-size: 150%;
+    font-size: 175%;
 }
 
 h2{
@@ -53,11 +55,11 @@ header{
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    background-color: rgb(197, 55, 55);
+    background-color: rgb(187, 76, 76);
 }
 
 nav{
-    background-color: black;
+    background-color: rgb(61, 61, 61);
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -96,21 +98,32 @@ button{
 }
 
 #wrapper div{
-    margin-top: 3rem;
+    /* margin-top: 3rem;
     margin-bottom: 3rem;
     margin-left: 5%;
-    margin-right: 5%;
+    margin-right: 5%; */
 }
 
 img{
     max-width: 50%;
-    margin: auto;
+    margin-right: 5%;
     border: solid black 5px;
     border-radius: 10%;
 }
 
 .trailer {
-    max-width: 100%;
-    margin: auto;
+    max-width: 60%;
+    margin-right: auto;
     border: solid black 5px;
+}
+
+#content{
+    display: flex;
+    align-items: center;
+    margin: 1% 2%;
+    /* align-items: stretch; */
+}
+
+#content > p {
+    width: 40%;
 }
