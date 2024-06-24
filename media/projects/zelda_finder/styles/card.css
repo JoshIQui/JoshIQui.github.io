@@ -1,0 +1,41 @@
+.card{
+    height: 500px;
+    width: 275px;
+    border: 1px solid gray;
+    padding: .5rem;
+    background-color: #f4f4f4;
+    color: black;
+    font-size: .7rem;
+    position: relative;
+    margin: 1rem 2rem;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+  
+h2{
+    font-size: 1.1rem;
+    font-family: SfDistantGalaxy, sans-serif;
+    letter-spacing: .67px;
+    line-height: 1.2;
+    margin-top: 0;
+}
+
+img{
+    width: 100px;
+}
+button {
+    border-radius: 1px;
+    padding: 2px;
+    position: absolute;
+    top: 1px;
+    right: 1px;
+    opacity: 0.7;
+    float: right;
+}
+button:hover{
+    opacity: 1;
+}
+
+p{
+    font-size: 20px;
+}

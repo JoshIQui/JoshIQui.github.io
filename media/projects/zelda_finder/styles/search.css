@@ -1,0 +1,17 @@
+#output{
+    display:flex;
+    flex-wrap: wrap;
+}
+
+.select{
+    bottom: 1rem;
+}
+
+#search-input{
+    width: 25%;
+    bottom: 1rem;
+}
+
+button{
+    top: 1rem;
+}
