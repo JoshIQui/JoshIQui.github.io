@@ -91,7 +91,7 @@
         },
         "AVEVA": {
             "Title": "<h2><a href=\"https://www.aveva.com/en/\" target=\"_blank\">AVEVA</a>: Front End Angular Developer Intern</h2>",
-            "Image": "<img src=\"media/Images/aveva_insight_image.PNG\" alt=\"Aveva Insight\">",
+            "Image": "<img src=\"https://www.aveva.com/en/products/insight/_jcr_content/root/main_container/main-container/responsivegrid/background_container_129691444/backgroundCon/column_control_461111947/1colpar1/image/.coreimg.png/1717688657922/w016-insight-at-a-glance-23-07.png\" alt=\"Aveva Insight\">",
             "Description": "<p>Working as a Front End Angular Developer Intern at AVEVA, I contributed to the <a href=\"https://www.aveva.com/en/products/insight/\">AVEVA Insight</a> project: a web application for the visualization and analysis of Operations, Assets, and Overall Equipment Effectiveness (OEE). Utilizing <a href=\"https://angular.dev/\">Angular</a>, Typescript and a host of other web application-focused languages, I contributed to the development of frontend systems and widgets. Additionally, utilizing <a href=\"https://azure.microsoft.com/en-us/products/devops\">Azure DevOps</a> and <a href=\"https://www.cypress.io/\">Cypress</a>, I created and uniformized unit tests across the entire project. Maintaining, developing, and debugging code responsible for communicating with backend systems, were the primary bulk of my contributions, even performing some contribution to the application's backend.</p>"
         }
     }
