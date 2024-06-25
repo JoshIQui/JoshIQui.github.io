@@ -58,12 +58,12 @@
     },
     "Web Application Development": {
         "Roost": {
-            "Title": "<h2><a href=\"https://roost-app.herokuapp.com/\">Roost</a></h2>",
+            "Title": "<h2><a href=\"https://roost-app.herokuapp.com/\" target=\"_blank\">Roost</a></h2>",
             "Image": "<img src=\"media/Images/roost_image.png\" alt=\"Roost\">",
             "Description": "<p>Roost is a video hosting website where users can upload short videos to store and share with others via link. Users can create accounts to upload videos and can share links to those videos or links to their own accounts. A sample account can be seen <a href=\"https://roost-app.herokuapp.com/account?_id=645858f006a7063564101319\">here</a>. The application is built using <a href=\"https://www.heroku.com/\">Heroku</a> to host a Node JS server. The web application utilizes <a href=\"https://react.dev/\">React</a> to display its components and <a href=\"https://redis.io/\">Redis</a> for account-related purposes. Additionally, the application uses <a href=\"https://www.mongodb.com/\">MongoDB</a> as a database for the server.</p>"
         },
         "Hitboxle": {
-            "Title": "<h2><a href=\"https://hitboxle.herokuapp.com/\">Hitboxle</a></h2>",
+            "Title": "<h2><a href=\"https://hitboxle.herokuapp.com/\" target=\"_blank\">Hitboxle</a></h2>",
             "Image": "<img src=\"media/Images/hitboxle_image.png\" alt=\"Hitboxle\">",
             "Description": "<p>Hitboxle is a Wordle-inspired web game where the player will guess the name of the character that owns the specified fighting game move. The player is given a description of the move along with some useful frame data information. Once the user guesses the correct character name, the answer is revealed. At any point, a user can change the puzzle that is presented for sampling purposes. The application is built as a <a href=\"https://www.heroku.com/\">Heroku</a>-hosted Node JS server. The application manages requests for puzzle information and to update user statistics. Move information is borrowed from <a href=\"https://www.dustloop.com/w/Main_Page\">Dustloop</a> and stored in a JSON file on the server. The server can then use this file to decide on what puzzle to use for the specified time-slot.</p>"
         },
