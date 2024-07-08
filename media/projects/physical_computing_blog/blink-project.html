@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IGME 470 Blog</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+    <link rel="stylesheet" href="./styles/styles.css">
+    <script type="module" src="src/init.js"></script>
+</head>
+<body>
+    <navigation-bar data-page="blink-project"></navigation-bar>
+
+    <section id="content">
+        <section class="hero" id="page-title">
+            <div class="hero-body">
+                <p class="title has-text-white">
+                    Alternating Light Controller
+                </p>
+                <p class="subtitle has-text-white">
+                    A project for controlling LEDs with unique inputs
+                </p>
+            </div>
+      </section>
+
+      <section>
+        <!-- <h2 class="title has-text-white"></h2> -->
+        <p class="has-text-white">For my first project in physical computing, I wanted to create a set of LED lights controlled by two different controls. I decided to create a device where an analog control adjusts the brightness of the LEDs. I also wanted to use a switch to passively control the display of the LEDs. To make this project, the <a href="https://docs.arduino.cc/hardware/nano-33-iot">documentation</a> for my Arduino Nano 33 Iot was very useful in configuring my controls. I ran into a few difficulties when creating this project.</p>
+        <br>
+        <img src="media/images/alternating-light-controller.jpg" class="content-image">
+        <p class="has-text-white">The board has two functions. The first function is controlled by the a dial on the board. This dial controls the brightness of the LED lights. Turning the dial clockwise will increase the brightness, while counterclockwise will do the opposite. Passively, the lights will turn on one after the other in an adjacent sequence. The second function is controlled by a switch which changes the direction that the LEDs turn on/off to be the direction the swtich is flipped to.</p>
+        <br>
+        <video controls><source src="media/videos/alternating-light-controller.mp4" type="video/webm"></video>
+        <br>
+        <img src="media/images/alternating-light-controller-diagram.jpg" class="content-image">
+        <br>
+        <p class="has-text-white">The first issue that I ran into when designing this project was determing where the LEDs would be placed. I needed to place them in close proximity to allow for the nice visuals. However, I also needed to place them in a way that would not cause the wires to touch one another as I learned in my <a href=ins-and-outs.html>first exercise</a>. The biggest issue that I ran into was that my switch was returning fluctuating values when flipped in a specific direction. I was unable to find the cause of this, so I created a workaround in my code to ensure that this did not happen.</p>
+        <br>
+        <p class="has-text-white">I am not happy with having to make a workaround in code for a physical issue, but it was all I was able to do to fix my issue. In the future, I hope to learn how to fix/avoid these types of issues. My code for the board can be downloaded <a href="media/code/blink.zip" download>here</a>.</p>
+      </section>
+    </section>
+
+    <footer class="is-footer">Joshua Quinones (jiq4449)</footer>
+</body>
+</html>

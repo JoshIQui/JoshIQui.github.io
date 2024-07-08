@@ -68,5 +68,8 @@ window.onload = async () => {
             segment.appendChild(buttonColumn);
             navi.appendChild(segment);
         }
+
+        //Make button for physical computing blog
+        navi.innerHTML += `<a href=\"./media/projects/physical_computing_blog/home.html\" target=\"_blank\"><button>Arduino Blog</button></a>`;
     });
 }
