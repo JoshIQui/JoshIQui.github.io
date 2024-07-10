@@ -70,6 +70,12 @@ window.onload = async () => {
         }
 
         //Make button for physical computing blog
-        navi.innerHTML += `<a href=\"https://joshiqui.github.io/arduino-blog/\" target=\"_blank\"><button>Arduino Blog</button></a>`;
+        let blogAnchor = document.createElement('a');
+        blogAnchor.setAttribute("href", "https://joshiqui.github.io/arduino-blog/");
+        blogAnchor.setAttribute("target", "blank");
+        let blogButton = document.createElement('button');
+        blogButton.innerHTML = "Arduino Blog";
+        blogAnchor.appendChild(blogButton);
+        navi.appendChild(blogAnchor);
     });
 }
