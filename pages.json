@@ -65,7 +65,7 @@
         "Plant Shopper": {
             "Title": "<h2><a href=\"https://joshiqui.github.io/e-plantShopping/\" target=\"_blank\">Plant Shopper</a></h2>",
             "Image": "<img src=\"media/Images/plant_shopper_image.png\" alt=\"Plant Shopper\">",
-            "Description": "<p>Plant shopper is a shopping interface created with React utilizing Redux. Built off a template, I created the React and Redux systems to engineer the frontend. The user can add items to their cart, remove items, and adjust the amount per unique items. The cart page calculates the amount for each item as well as the total price. You can follow the link to play with the frontend.</p>"
+            "Description": "<p>Plant shopper is a shopping interface created with React utilizing Redux. Built off a template, I created the React and Redux systems to engineer the frontend. The user can add items to their cart, remove items, and adjust the amount per unique items. The cart page calculates the amount for each item as well as the total price. You can follow the link to play with the frontend. The project is hosted and ported on github pages.</p>"
         },
         "Hitboxle": {
             "Title": "<h2><a href=\"https://hitboxle.herokuapp.com/\" target=\"_blank\">Hitboxle</a></h2>",
