@@ -59,7 +59,7 @@
     "Web Application Development": {
         "Best Cars Dealership": {
             "Title": "<h2><a href=\"https://joshiqa01-8000.theiadockernext-1-labs-prod-theiak8s-4-tor01.proxy.cognitiveclass.ai/\" target=\"_blank\">Best Cars Dealership</a></h2>",
-            "Image": "<img src=\"best_cars_dealership_image.png\" alt=\"Best Cars Dealership\">",
+            "Image": "<img src=\"media/images/best_cars_dealership_image.png\" alt=\"Best Cars Dealership\">",
             "Description": "<p>Best Cars Dealership is a capstone project for the IBM Full Stack Developer Certification. It features a web application utilizing <a href=\"https://react.dev/\">React</a> and NodeJS to maintain a frontend and backend. The application is containerized using docker and deployed on Kubernetes, making a full stack application. On the application, users can search for car dealerships and leave reviews, all stored on a MongoDB database.</p>"
         },
         "Roost": {
