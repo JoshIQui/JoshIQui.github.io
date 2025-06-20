@@ -1,14 +1,19 @@
 body{
     margin: 0;
     padding: 0;
-    background-color: #FDF0D5;
+    /* background-color: #FDF0D5; */
+    background-color: #f5ebdc;
     overflow: hidden;
 }
 
 p{
     font-family: 'Roboto Condensed';
-    font-size: 140%;
-    color: #500B02;
+    font-size: 160%;
+    color: #2c2c2c;
+}
+
+nav > a{
+    text-decoration: none;
 }
 
 a:link{
@@ -20,14 +25,16 @@ a:visited{
 }
 
 h1{
+    color: rgb(245, 245, 245);
     font-family: 'Staatliches', cursive;
     font-size: 260%;
-    letter-spacing: .15rem;
+    letter-spacing: .25rem;
+    text-shadow: 3px 3px 5px #000000;
 }
 
 h2, h3{
     font-family: 'Commissioner';
-    font-size: 175%;
+    font-size: 225%;
 }
 
 h2{
@@ -55,11 +62,13 @@ header{
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    background-color: rgb(187, 76, 76);
+    /* background-color: rgb(187, 76, 76); */
+    background: linear-gradient(to bottom, #d35454 0%, #a83232 100%);
 }
 
 nav{
-    background-color: rgb(61, 61, 61);
+    /* background-color: rgb(41, 41, 41); */
+    background: linear-gradient(to bottom, #2a2a2a 0%, #1a1a1a 100%);
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -70,12 +79,25 @@ nav{
 
 button{
     display: block;
-    background: gray;
-    padding: 10px;
+    background-color: #d6d6d6;        /* light neutral gray */
+    color: #111111;                   /* dark text for contrast */
+    border: 2px solid #555555;        /* slight border definition */
+    padding: 10px 16px;
+    border-radius: 6px;
+    font-weight: bold;
+    box-shadow: 2px 2px 6px rgba(0,0,0,0.2);
+    transition: all 0.3s ease;
     width: 100%;
     text-align: center;
     font-family: 'Commissioner';
-    color: white;
+}
+
+button:hover{
+    background-color: #ffffff;        /* crisp white */
+    color: #b22222;                   /* subtle red accent */
+    border-color: #b22222;
+    transform: translateY(-1px);
+    box-shadow: 3px 3px 10px rgba(0,0,0,0.3);
 }
 
 .buttonColumn{
@@ -87,21 +109,20 @@ button{
     position: relative;
 }
 
-.pageButton{
-    
-}
-
 #wrapper{
+    margin: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
 img{
+    max-height: max-content;
     max-width: 50%;
+    max-height: 600px;
     margin-right: 5%;
     border: solid black 5px;
-    border-radius: 10%;
+    border-radius: 1%;
 }
 
 .trailer {
@@ -113,6 +134,7 @@ img{
 #content{
     display: flex;
     align-items: center;
+    justify-content: space-evenly;
     margin: 1% 2%;
     /* align-items: stretch; */
 }
