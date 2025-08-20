@@ -1,9 +1,9 @@
 {
     "Projects": {
-        "Roost": {
-            "Title": "<h2><a href=\"https://roost-app.herokuapp.com/\" target=\"_blank\">Roost</a></h2>",
-            "Image": "<img src=\"media/images/roost_image.png\" alt=\"Roost\">",
-            "Description": "<p>Roost is a video hosting website where users can upload short videos to store and share with others via link. Users can create accounts to upload videos and can share links to those videos or links to their own accounts. A sample video can be seen <a href=\"https://roost-app.herokuapp.com/viewer?_id=6862e2abe2efb3acce13f8b8\">here</a>. The application is built using <a href=\"https://www.heroku.com/\">Heroku</a> to host a Node JS server. The web application utilizes <a href=\"https://react.dev/\">React</a> to display its components and <a href=\"https://redis.io/\">Redis</a> for account-related purposes. Additionally, the application uses <a href=\"https://www.mongodb.com/\">MongoDB</a> as a database for the server.</p>"
+        "ShareRoost": {
+            "Title": "<h2><a href=\"https://www.shareroost.com/\" target=\"_blank\">ShareRoost</a></h2>",
+            "Image": "<img src=\"media/images/shareroost_image.png\" alt=\"ShareRoost\">",
+            "Description": "<p>ShareRoost is a video hosting website where users can upload short videos to store and share with others via link. Users can create accounts to upload videos and can share links to those videos or links to their own accounts. The application is built as a serverless architecture hosted on AWS. Its frontend is built with React and Bootstrap, leveraging calls to AWS API Gateway for a smooth user experience. A sample video can be seen <a href=\"https://www.shareroost.com/video/3de24d59-6b1f-474f-b79e-a02e4be72cf9\" target=\"_blank\">here</a>. Also, you can find a sample account <a href=\"https://www.shareroost.com/video/811d39c2-8f86-41ef-9dc6-05b1e04237a0\" target=\"_blank\">here</a>.</p>"
         },
         "Steel Heel Jam": {
             "Title": "<h2>Steel Heel Jam: <a href=\"https://nickybakes.itch.io/steel-heel-jam\" target=\"_blank\">Game Page</a></h2>",
