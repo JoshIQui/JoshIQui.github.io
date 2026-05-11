@@ -3,29 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
+    <title>Joshua Quinones | Portfolio</title>
     <link rel="stylesheet" href="stylesheet.css">
-    <script type="text/javascript" src="src.js"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@1,700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Commissioner&display=swap" rel="stylesheet">
+    <script type="text/javascript" src="src.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <div id="title">
-            <h1>Joshua Quinones: Certified Full Stack Software Developer</h1>
-        </div>
-    </header>
+    <div class="gradient-bg"></div>
+    <div id="app-container">
+        <aside id="sidebar">
+            <div id="sidebar-header">
+                <div id="profile-container">
+                    <img src="media/images/me.jpg" alt="Joshua Quinones" id="profile-pic">
+                </div>
+                <h1>Joshua Quinones</h1>
+                <p class="subtitle">Full Stack Software Developer</p>
+            </div>
+            
+            <nav id="navi">
+                <button id="aboutMeButton" class="nav-button active">About Me</button>
+                <!-- Dynamic categories will be injected here -->
+            </nav>
 
-    <nav id="navi">
-        <a href="media/pdfs/Joshua_Quinones_Resume.pdf" target="_blank"><button>Resume</button></a>
-        <div>
-            <h3><button id="aboutMeButton">About Me</button></h3>
-        </div>
-    </nav>
+            <div id="sidebar-footer">
+                <a href="media/pdfs/Joshua_Quinones_Resume.pdf" target="_blank" class="footer-button">View Resume</a>
+                <a href="https://joshiqui.github.io/arduino-blog/" target="_blank" class="footer-button">Arduino Blog</a>
+            </div>
+        </aside>
 
-    <div id="wrapper">
-        <div id="display" class="specifics"></div>
+        <main id="main-content">
+            <div id="display"></div>
+        </main>
     </div>
 </body>
 </html>
