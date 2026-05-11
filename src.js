@@ -49,10 +49,6 @@ function displayAboutMe() {
                 <h2>About Me</h2>
                 <p>I am a Certified Full Stack Software Developer with a background in Game Design and Development from RIT. My expertise spans building scalable cloud architectures on AWS, developing responsive web applications with React and Node.js, and low-level graphics programming with C++ and DirectX.</p>
                 <p>I am passionate about creating robust software solutions that solve real-world problems. My experience includes developing high-performance 3D systems and architecting serverless hosting platforms.</p>
-                <div class="btn-group">
-                    <a href="media/pdfs/Joshua_Quinones_Resume.pdf" target="_blank" class="btn-primary">Download Resume</a>
-                    <a href="https://github.com/JoshIQui" target="_blank" class="btn-secondary">View GitHub</a>
-                </div>
             </div>
             <div class="about-image">
                 <img src="media/images/me.jpg" alt="Joshua Quinones">
@@ -136,6 +132,14 @@ function displayItem(categoryName, itemName) {
     const item = pages[categoryName][itemName];
     const tags = item.tags ? item.tags.map(t => `<span class="tag">${t}</span>`).join('') : '';
     
+    // Prioritize video for detail view, fallback to image
+    let mediaHtml = '';
+    if (item.video) {
+        mediaHtml = `<iframe src="${item.video}" title="${itemName} Video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`;
+    } else {
+        mediaHtml = item.Image || (item.image ? `<img src="${item.image}" alt="${itemName}">` : '');
+    }
+
     display.innerHTML = `
         <div class="detail-view">
             <div class="detail-header">
@@ -143,7 +147,7 @@ function displayItem(categoryName, itemName) {
             </div>
             <div class="detail-content">
                 <div class="media-container">
-                    ${item.Image || (item.image ? `<img src="${item.image}">` : '')}
+                    ${mediaHtml}
                 </div>
                 <div class="description-container">
                     <h2>${item.title || itemName}</h2>

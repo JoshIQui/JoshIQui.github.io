@@ -1,46 +1,13 @@
 {
-    "Projects": {
-        "Steel Heel Jam": {
-            "title": "Steel Heel Jam",
-            "subtitle": "3D Platform Fighter",
-            "image": "media/images/steel_heel_jam_image.png",
-            "tags": ["Unity", "C#", "3D Game Design"],
-            "preview": "My take on the platform fighter genre—combining high-speed wrestling with chaotic 8-player arena combat.",
-            "description": "Steel Heel Jam was born out of my love for local multiplayer chaos. I wanted to create a platform fighter that felt heavy and impactful, so I focused on wrestling-inspired mechanics like suplexes and slams. Seeing 8 players scramble to stay in a shrinking ring is always the highlight of my dev sessions.",
-            "highlights": [
-                "I engineered a custom physics-based wrestling system for suplexes and throws.",
-                "Built a dynamic arena system where the ring 'heats up' and shrinks based on match intensity.",
-                "Optimized the game to handle 8 players simultaneously with zero input lag."
-            ],
-            "links": {
-                "Game Page": "https://nickybakes.itch.io/steel-heel-jam"
-            }
-        },
-        "Best Cars Dealership": {
-            "title": "Best Cars Dealership",
-            "subtitle": "Full Stack Capstone",
-            "image": "media/images/best_cars_dealership_image.png",
-            "tags": ["React", "Node.js", "Docker", "Kubernetes", "MongoDB"],
-            "preview": "A massive full-stack challenge where I containerized an entire car review ecosystem using Kubernetes.",
-            "description": "This project was my deep dive into the 'dev' in DevOps. I didn't just want to build a website; I wanted to build an infrastructure. I pushed myself to master Docker and Kubernetes to ensure that no matter how many 'users' hit this dealership, the backend would scale and hold firm.",
-            "highlights": [
-                "I architected the entire microservices stack from the ground up.",
-                "Successfully containerized the frontend, backend, and database for seamless orchestration.",
-                "Implemented a custom review and search engine powered by MongoDB."
-            ],
-            "links": {
-                "GitHub": "https://github.com/JoshIQui/best-cars-dealership/"
-            }
-        }
-    },
     "Work Experience": {
         "ShareRoost": {
             "role": "Founder & Lead Developer",
             "company": "ShareRoost (Independent Project)",
             "date": "2023 - Present",
+            "image": "media/images/shareroost_image.png",
             "tags": ["React", "AWS", "Node.js", "Serverless"],
             "highlights": [
-                "I built ShareRoost to solve a personal problem: I needed a faster way to share dev clips without the bloat of traditional video platforms.",
+                "Built ShareRoost to solve a personal problem: I needed a faster way to share dev clips without the bloat of traditional video platforms.",
                 "Architected a completely serverless infrastructure on AWS, resulting in near-zero hosting costs while maintaining high performance.",
                 "Leveraged S3 and CloudFront for global video delivery and Lambda for on-the-fly processing."
             ],
@@ -52,10 +19,11 @@
         "AVEVA": {
             "role": "Front End Angular Developer Intern",
             "company": "AVEVA",
-            "date": "Duration TBD",
-            "tags": ["Angular", "TypeScript", "Cypress", "Azure DevOps"],
+            "date": "2022",
+            "image": "media/images/AVEVA_insight_image.png",
+            "tags": ["Angular", "TypeScript", "Jest", "Cypress", "Azure DevOps"],
             "highlights": [
-                "I contributed to the AVEVA Insight project, developing complex data visualization widgets for industrial assets.",
+                "Contributed to the AVEVA Insight project, developing complex data visualization widgets for industrial assets.",
                 "Uniformized unit testing across the project using Cypress, increasing overall code reliability and CI/CD stability.",
                 "Collaborated with backend engineers to optimize data fetching for high-frequency telemetry streams."
             ]
@@ -63,7 +31,8 @@
         "Changeling VR": {
             "role": "Lead Game Developer",
             "company": "Changeling VR",
-            "date": "Duration TBD",
+            "date": "2024",
+            "video": "https://www.youtube.com/embed/B01VZdgthws?si=Uqzr1B85CPcYfvNu",
             "tags": ["Unreal Engine 4", "C++", "VR", "Scrum"],
             "highlights": [
                 "Led a multi-disciplinary team in the creation of a first-person VR mystery game.",
@@ -72,12 +41,84 @@
             ]
         }
     },
+    "Projects": {
+        "Steel Heel Jam": {
+            "title": "Steel Heel Jam",
+            "subtitle": "3D Platform Fighter",
+            "image": "media/images/steel_heel_jam_image.png",
+            "video": "https://www.youtube.com/embed/oy4JxydzyLc",
+            "tags": ["Unity", "C#", "3D Game Design"],
+            "preview": "My take on the platform fighter genre—combining high-speed wrestling with chaotic 8-player arena combat.",
+            "description": "Steel Heel Jam was born out of my love for local multiplayer chaos. I wanted to create a platform fighter that felt heavy and impactful, so I focused on wrestling-inspired mechanics like suplexes and slams. Seeing 8 players scramble to stay in a shrinking ring is always the highlight of my dev sessions.",
+            "highlights": [
+                "Engineered a custom physics-based wrestling system for suplexes and throws.",
+                "Built a dynamic arena system where the ring 'heats up' and shrinks based on match intensity.",
+                "Optimized the game to handle 8 players simultaneously with zero input lag."
+            ],
+            "links": {
+                "Game Page": "https://nickybakes.itch.io/steel-heel-jam"
+            }
+        },
+        "3D Renderer": {
+            "title": "3D Renderer",
+            "subtitle": "C++ & DirectX 11 Graphics",
+            "image": "media/images/3drenderer.png",
+            "tags": ["C++", "DirectX 11", "Graphics Programming"],
+            "preview": "A from-scratch 3D engine focusing on the fundamentals of the graphics pipeline and real-time rendering.",
+            "description": "I wanted to understand what actually happens under the hood of modern game engines. This project was my journey into the graphics pipeline, where I programmed everything from the material systems to physics and collision from the ground up using C++ and DirectX 11. It's a raw look at how pixels become worlds.",
+            "highlights": [
+                "Developed a custom graphics and material system using HLSL shaders.",
+                "Programmed a fundamental physics and collision engine from scratch.",
+                "Implemented a simple game loop to demonstrate real-time rendering performance."
+            ],
+            "links": {
+                "GitHub": "https://github.com/JoshIQui/3DRenderer"
+            }
+        },
+        "Zelda Finder": {
+            "title": "Zelda Finder",
+            "subtitle": "API-Driven Search Engine",
+            "image": "media/images/zelda_finder_image.PNG",
+            "tags": ["JavaScript", "Web Components", "Firebase", "Zelda API"],
+            "preview": "A sophisticated search engine for the Zelda universe, utilizing custom web components and real-time user data.",
+            "description": "As a fan of the series, I wanted to build the ultimate resource for Zelda data. I pushed myself to use modern Web Components and Bulma for a streamlined UI, while leveraging Firebase to handle user favorites. It's a full-featured search tool that connects to a live community database.",
+            "highlights": [
+                "Engineered a modular UI using custom JavaScript Web Components.",
+                "Integrated the Zelda Fan API to query and return complex game data in real-time.",
+                "Implemented local storage and Firebase sync for a persistent community favorites system."
+            ],
+            "links": {
+                "Live App": "https://people.rit.edu/jiq4449/330/project-1/app.html"
+            }
+        },
+        "Amiibo Finder": {
+            "title": "Amiibo Finder",
+            "subtitle": "Data Parsing & Search Tool",
+            "image": "media/images/amiibo_finder_image.PNG",
+            "tags": ["HTML", "CSS", "JavaScript", "APIs"],
+            "preview": "A practical tool for collectors to find and purchase Amiibos, focusing on efficient external data parsing.",
+            "description": "My main goal with this project was mastering the art of parsing external information. I wanted to create a tool that didn't just find an Amiibo, but also helped you buy it. I focused on building a clear and efficient data pipeline that handles complex search criteria like release dates and series names.",
+            "highlights": [
+                "Designed an efficient pipeline to parse and filter large datasets from the AmiiboAPI.",
+                "Integrated multi-filter search logic (series, date, name) for precision results.",
+                "Developed a dynamic storefront linking system to facilitate user purchases."
+            ],
+            "links": {
+                "Live Site": "media/projects/amiibo_finder/"
+            }
+        }
+    },
     "Professional Certifications": {
         "AWS Solutions Architect": {
             "title": "AWS Certified Solutions Architect – Associate",
             "image": "media/images/aws_certified_solutions_architect_associate.png",
             "tags": ["Cloud Architecture", "AWS", "Security"],
             "description": "This certification validates my ability to design and deploy secure and robust applications on AWS technologies.",
+            "highlights": [
+                "Demonstrated proficiency in architecting distributed systems on AWS.",
+                "Validated expertise in AWS security, networking, and storage best practices.",
+                "Certified capability in building resilient, high-performance infrastructures."
+            ],
             "links": {
                 "Verify Badge": "https://www.credly.com/badges/d6582ae3-824a-4336-b07f-6a3a7b32290b/public_url"
             }
@@ -87,6 +128,11 @@
             "image": "media/images/IBM_full_stack_software_developer.png",
             "tags": ["Full Stack", "IBM", "Cloud"],
             "description": "A comprehensive certification covering the entire development lifecycle, from cloud-native apps to CI/CD pipelines.",
+            "highlights": [
+                "Mastered containerization and orchestration with Docker and Kubernetes.",
+                "Developed full-stack proficiency in modern web technologies and databases.",
+                "Certified in cloud-native application development and DevOps methodologies."
+            ],
             "links": {
                 "View Certificate": "media/pdfs/IBM_full_stack_software_developer.pdf"
             }
