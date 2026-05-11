@@ -2,7 +2,7 @@
     "Work Experience": {
         "ShareRoost": {
             "role": "Founder & Lead Developer",
-            "company": "ShareRoost (Independent Project)",
+            "company": "ShareRoost",
             "date": "2023 - Present",
             "image": "media/images/shareroost_image.png",
             "tags": ["React", "AWS", "Node.js", "Serverless"],
@@ -29,7 +29,7 @@
             ]
         },
         "Changeling VR": {
-            "role": "Lead Game Developer",
+            "role": "Software Engineer (Game Developer)",
             "company": "Changeling VR",
             "date": "2024",
             "video": "https://www.youtube.com/embed/B01VZdgthws?si=Uqzr1B85CPcYfvNu",
