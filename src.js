@@ -47,8 +47,8 @@ function displayAboutMe() {
         <section class="about-section">
             <div class="about-text">
                 <h2>About Me</h2>
-                <p>I am a Certified Full Stack Software Developer with a background in Game Design and Development from RIT. My expertise spans building scalable cloud architectures on AWS, developing responsive web applications with React and Node.js, and low-level graphics programming with C++ and DirectX.</p>
-                <p>I am passionate about creating robust software solutions that solve real-world problems. My experience includes developing high-performance 3D systems and architecting serverless hosting platforms.</p>
+                <p>I am a Certified Full Stack Software Developer with a background in Game Design and Development from RIT. My expertise spans building scalable cloud architectures on AWS, developing responsive web applications with React and Node.js, and strong skills in software development.</p>
+                <p>I am currently applying myself in cloud technology, having earned my AWS Solutions Architect Certification. Currently, I am the founding Engineer (and soon to be owner) of ShareRoost: A video hosting/sharing platform.</p>
             </div>
             <div class="about-image">
                 <img src="media/images/me.jpg" alt="Joshua Quinones">
